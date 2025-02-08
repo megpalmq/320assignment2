@@ -10,6 +10,25 @@ const app = readline.createInterface({
 function quitApp() {
   app.close();
 }
+const packageJsonPath = path.join(process.cwd(), "package.json");
+
+if (!fs.existsSync(packageJsonPath)) {
+  const packageJsonContent = {
+    name: "new-project",
+    version: "1.0.0",
+    scripts: {
+      start: "node index.js",
+    },
+  };
+
+  fs.writeFileSync(
+    packageJsonPath,
+    JSON.stringify(packageJsonContent, null, 2)
+  );
+  console.log("✔ package.json created.");
+} else {
+  console.log("⚠ package.json already exists. Skipping creation.");
+}
 
 function includeSillyFeature(callback) {
   app.question(
