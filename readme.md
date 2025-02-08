@@ -1,4 +1,4 @@
-## sp25-create-320-hw2
+## meg-create-app
 
 A simple Node.js application that sets up a project with some fun features! It allows you to create files and directories based on user input, including a special unicorn feature and optional Sanrio files.
 
