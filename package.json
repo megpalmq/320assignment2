@@ -5,10 +5,11 @@
     "meg-create-app": "index.js"
   },
   "files": [
-    "index.js",
-    "readme.md",
-    "lib/"
-  ],
+  "index.js",
+  "README.md",
+  "package.json",
+  "lib/**/*"
+],
   "main": "index.js",
   "scripts": {
     "fs": "node fs",
