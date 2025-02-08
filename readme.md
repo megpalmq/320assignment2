@@ -1,4 +1,4 @@
-## meg-create-app
+## meg-create-app ✨
 
 A simple Node.js application that sets up a project with some fun features! It allows you to create files and directories based on user input, including a special unicorn feature and optional Sanrio files.
 
@@ -11,7 +11,7 @@ To use this package, you'll need to have [Node.js](https://nodejs.org/) installe
 3. Run the following command to install the required dependencies:
 
    ```bash
-   npm install
+   npm i meg-create-app
    ```
 
    ! also make sure to change the gitignore file in the lib folder to be ".gitignore" instead of ".gitignore.txt"
