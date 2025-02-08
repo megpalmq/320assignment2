@@ -1,0 +1,15 @@
+{
+  "name": "320assignment2",
+  "version": "1.1.0",
+  "main": "index.js",
+  "scripts": {
+    "fs": "node fs",
+    "path": "node path",
+    "start": "node index.js",
+    "test": "set TEST=1 && node ./"
+  },
+  "keywords": [],
+  "author": "Megan Palmquist",
+  "license": "ISC",
+  "description": "A command-line tool to scaffold projects with customizable features."
+}
