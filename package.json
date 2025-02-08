@@ -1,6 +1,14 @@
 {
-  "name": "320assignment2",
-  "version": "1.1.0",
+  "name": "sp25-create-320-hw2",
+  "version": "1.0.1",
+  "bin": {
+    "sp25-create-320-hw2": "index.js"
+  },
+  "files": [
+    "index.js",
+    "readme.md",
+    "lib/"
+  ],
   "main": "index.js",
   "scripts": {
     "fs": "node fs",
@@ -11,5 +19,8 @@
   "keywords": [],
   "author": "Megan Palmquist",
   "license": "ISC",
-  "description": "A command-line tool to scaffold projects with customizable features."
+  "description": "A command-line tool to scaffold projects with customizable features.",
+  "directories": {
+    "lib": "lib"
+  }
 }

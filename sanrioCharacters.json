@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Hello Kitty",
+    "birthday": "November 1",
+    "funFact": "She loves baking cookies!"
+  },
+  {
+    "name": "Cinnamoroll",
+    "birthday": "March 6",
+    "funFact": "He is a fluffy puppy who loves coffee."
+  },
+  {
+    "name": "My Melody",
+    "birthday": "January 18",
+    "funFact": "She loves strawberry shortcake!"
+  },
+  {
+    "name": "Keroppi",
+    "birthday": "July 10",
+    "funFact": "He loves swimming and jumping."
+  },
+  {
+    "name": "Badtz-Maru",
+    "birthday": "April 1",
+    "funFact": "He is a mischievous penguin."
+  }
+]
